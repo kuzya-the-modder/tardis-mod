@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tardis",
+  "version": "${version}",
+  "name": "Tardis",
+  "description": "",
+  "authors": [
+    "EblanDev"
+  ],
+  "contact": {
+    "repo": "https://gitea.guevin1.com/EblanDev/Tardis.git"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/tardis/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "guevin1.tardis.TardisMod"
+    ],
+    "client": [
+      "guevin1.tardis.client.TardisClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "geckolib": ">=4.1",
+    "minecraft": "${minecraft_version}"
+  }
+}

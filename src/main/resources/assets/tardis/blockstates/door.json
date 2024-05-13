@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tardis:block/door",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "tardis:block/door",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "tardis:block/door"
+    },
+    "facing=west": {
+      "model": "tardis:block/door",
+      "y": 90
+    }
+  }
+}

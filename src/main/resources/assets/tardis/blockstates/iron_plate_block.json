@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tardis:block/iron_plate_block"
+    }
+  }
+}

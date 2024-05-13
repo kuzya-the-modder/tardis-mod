@@ -1,0 +1,8 @@
+{
+  "tardis_ambient": {
+    "subtitle": "tardis.ambient",
+    "sounds": [
+      "tardis:tardis_ambient"
+    ]
+  }
+}
